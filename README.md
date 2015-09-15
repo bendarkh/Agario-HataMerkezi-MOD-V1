@@ -1,5 +1,5 @@
 # Agario-HataMerkezi-MOD-V1
-**Agario-HataMerkezi-MOD V1**
+**Agar.io Modu Geliştirilmektedir**
 
 E Tuşuna Basılı Tuttukça W Atar.
 
