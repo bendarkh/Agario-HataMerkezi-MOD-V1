@@ -30,7 +30,29 @@
 
     window.addEventListener('keydown', overwriting);
 })();
+/*SPACE Atma Fonksiyonu */ 
+(function() {
+    var amount = 10;
+    var duration = 25; //ms
 
+    var overwriting = function(evt) {
+        if (evt.keyCode === 16) { // KEY_SHiFT
+            for (var i = 0; i < amount; ++i) {
+                setTimeout(function() {
+                    window.onkeydown({keyCode: 32}); // KEY_Space
+                    window.onkeydown({keyCode: 32}); 
+                    window.onkeydown({keyCode: 32}); 
+                    window.onkeydown({keyCode: 32}); 
+                    window.onkeydown({keyCode: 32}); 
+                    window.onkeyup({keyCode: 32});
+                }, i * duration);
+            }
+        }
+    };
+
+    window.addEventListener('keydown', overwriting);
+})();
+/* Space Biter */
 /* HARİTA */
 window.msgpack = this.msgpack;
 
