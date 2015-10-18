@@ -18,7 +18,7 @@
     var duration = 25; //ms
 
     var overwriting = function(evt) {
-        if (evt.keyCode === 65) { // KEY_E
+        if (evt.keyCode === 69) { // KEY_E
             for (var i = 0; i < amount; ++i) {
                 setTimeout(function() {
                     window.onkeydown({keyCode: 87}); // KEY_W
